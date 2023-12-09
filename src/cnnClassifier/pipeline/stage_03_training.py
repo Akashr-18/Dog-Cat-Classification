@@ -24,3 +24,13 @@ class ModelTrainingPipeline:
         training.train(
             callback_list=callback_list
         )
+
+if __name__ == '__main__':
+    try:
+        logger.info(f'>>>>>>> Stage {STAGE_NAME} started <<<<<<<')
+        obj = ModelTrainingPipeline()
+        obj.main()
+        logger.info(f'>>>>>>> Stage {STAGE_NAME} completed <<<<<<<')
+    except Exception as e:
+        logger.exception(e)
+        raise e
