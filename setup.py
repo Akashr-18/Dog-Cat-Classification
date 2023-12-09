@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Dog-Cat-Classification"
 AUTHOR_USER_NAME = "Akashr-18"
-SRC_REPO = "cnn-classifier"
+SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "sujayakash07@gmail.com"
 
 

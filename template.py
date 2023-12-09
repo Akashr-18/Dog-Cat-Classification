@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-folder_name = "cnn-classifier"
+folder_name = "cnnClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -12,10 +12,11 @@ list_of_files = [
     f"src/{folder_name}/utils/__init__.py",
     f"src/{folder_name}/pipeline/__init__.py",
     f"src/{folder_name}/config/__init__.py",
-    f"src/{folder_name}/config/configuration.py"
+    f"src/{folder_name}/config/configuration.py",
     f"src/{folder_name}/constants/__init__.py",
     f"src/{folder_name}/components/__init__.py",
     f"src/{folder_name}/entity/__init__.py",
+    "config/config.yaml",
     "params.yaml",
     "dvc.yaml",
     "reasearch/trials.ipynb",
